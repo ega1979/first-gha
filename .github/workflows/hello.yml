@@ -1,0 +1,9 @@
+name: Change files!
+on: push
+
+jobs:
+  build:
+    name: Greeting
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "change a file"
