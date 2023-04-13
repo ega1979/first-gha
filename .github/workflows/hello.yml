@@ -1,4 +1,4 @@
-name: Hello, GitHub Actions!
+name: Change files!
 on: push
 
 jobs:
@@ -6,4 +6,4 @@ jobs:
     name: Greeting
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello,GitHub Actions!"
+      - run: echo "change a file"
