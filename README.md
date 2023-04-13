@@ -1,1 +1,2 @@
 # first-gha
+GitHub Actionsのテストです。
