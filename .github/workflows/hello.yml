@@ -12,7 +12,7 @@ jobs:
       - run: echo "change a file"
 
   build2:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Send GitHub Action trigger data to Slack workflow
