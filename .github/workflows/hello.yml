@@ -12,6 +12,7 @@ jobs:
       - run: echo "change a file"
 
   build2:
+    name: Send Slack
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
